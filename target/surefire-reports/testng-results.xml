@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-23T20:48:59 IST" name="Surefire suite" finished-at="2025-01-23T20:50:35 IST" duration-ms="96683">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.LoginErrorValidation()[pri:0, instance:shubhampractice.AutoProject.tests.ErrorValidationTest@4f209819]" name="LoginErrorValidation" class="shubhampractice.AutoProject.tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="JsonSubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" name="submitOrder" class="shubhampractice.AutoProject.tests.JsonSubmitOrderTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" name="submitOrder" class="shubhampractice.AutoProject.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="smoke">
+        <method signature="JsonSubmitOrderTest.OrderHistoryTest()[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" name="OrderHistoryTest" class="shubhampractice.AutoProject.tests.JsonSubmitOrderTest"/>
+        <method signature="SubmitOrderTest.OrderHistoryTest()[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" name="OrderHistoryTest" class="shubhampractice.AutoProject.tests.SubmitOrderTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-01-23T20:48:59 IST" name="Surefire test" finished-at="2025-01-23T20:50:35 IST" duration-ms="96683">
+      <class name="shubhampractice.AutoProject.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:00 IST" name="launchApplication" finished-at="2025-01-23T20:50:08 IST" duration-ms="7893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:08 IST" name="submitOrder" data-provider="getData" finished-at="2025-01-23T20:50:15 IST" duration-ms="7394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pravinsolanke2610@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pravin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IPHONE 13 PRO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:15 IST" name="tearDown" finished-at="2025-01-23T20:50:16 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:16 IST" name="launchApplication" finished-at="2025-01-23T20:50:21 IST" duration-ms="5571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:21 IST" name="submitOrder" data-provider="getData" finished-at="2025-01-23T20:50:28 IST" duration-ms="6488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shetty@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iamking@000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BANARSI SAREE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:28 IST" name="tearDown" finished-at="2025-01-23T20:50:28 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:28 IST" name="launchApplication" finished-at="2025-01-23T20:50:33 IST" duration-ms="5652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:33 IST" name="OrderHistoryTest" finished-at="2025-01-23T20:50:35 IST" depends-on-methods="shubhampractice.AutoProject.tests.SubmitOrderTest.submitOrder" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhampractice.AutoProject.tests.SubmitOrderTest@72f926e6]" started-at="2025-01-23T20:50:35 IST" name="tearDown" finished-at="2025-01-23T20:50:35 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shubhampractice.AutoProject.tests.SubmitOrderTest -->
+      <class name="shubhampractice.AutoProject.tests.JsonSubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:49:22 IST" name="launchApplication" finished-at="2025-01-23T20:49:33 IST" duration-ms="10688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:49:33 IST" name="submitOrder" data-provider="getData" finished-at="2025-01-23T20:49:40 IST" duration-ms="7315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pravin@123, product=IPHONE 13 PRO, email=pravinsolanke2610@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:49:40 IST" name="tearDown" finished-at="2025-01-23T20:49:40 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:49:40 IST" name="launchApplication" finished-at="2025-01-23T20:49:45 IST" duration-ms="5243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:49:45 IST" name="submitOrder" data-provider="getData" finished-at="2025-01-23T20:49:52 IST" duration-ms="6815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=BANARSI SAREE, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:49:52 IST" name="tearDown" finished-at="2025-01-23T20:49:52 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:49:52 IST" name="launchApplication" finished-at="2025-01-23T20:49:58 IST" duration-ms="5818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:49:58 IST" name="OrderHistoryTest" finished-at="2025-01-23T20:50:00 IST" depends-on-methods="shubhampractice.AutoProject.tests.JsonSubmitOrderTest.submitOrder" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhampractice.AutoProject.tests.JsonSubmitOrderTest@39529185]" started-at="2025-01-23T20:50:00 IST" name="tearDown" finished-at="2025-01-23T20:50:00 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shubhampractice.AutoProject.tests.JsonSubmitOrderTest -->
+      <class name="shubhampractice.AutoProject.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhampractice.AutoProject.tests.ErrorValidationTest@4f209819]" started-at="2025-01-23T20:48:59 IST" name="launchApplication" finished-at="2025-01-23T20:49:08 IST" duration-ms="9159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:shubhampractice.AutoProject.tests.ErrorValidationTest@4f209819]" started-at="2025-01-23T20:49:08 IST" name="LoginErrorValidation" finished-at="2025-01-23T20:49:09 IST" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhampractice.AutoProject.tests.ErrorValidationTest@4f209819]" started-at="2025-01-23T20:49:09 IST" name="tearDown" finished-at="2025-01-23T20:49:09 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhampractice.AutoProject.tests.ErrorValidationTest@4f209819]" started-at="2025-01-23T20:49:09 IST" name="launchApplication" finished-at="2025-01-23T20:49:16 IST" duration-ms="6048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:shubhampractice.AutoProject.tests.ErrorValidationTest@4f209819]" started-at="2025-01-23T20:49:16 IST" name="ProductErrorValidation" finished-at="2025-01-23T20:49:21 IST" duration-ms="5451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhampractice.AutoProject.tests.ErrorValidationTest@4f209819]" started-at="2025-01-23T20:49:21 IST" name="tearDown" finished-at="2025-01-23T20:49:21 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shubhampractice.AutoProject.tests.ErrorValidationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
