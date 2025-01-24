@@ -109,4 +109,8 @@ public class BaseTest {
 	{
 		driver.close();
 	}
+	public void tearDown2()
+	{
+		driver.close();
+	}
 }
