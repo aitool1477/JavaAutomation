@@ -103,7 +103,7 @@ public class BaseTest {
 		return landingPage;
 	}
 //	LandingPage landingPage=new LandingPage(driver);
-//	landingPage.goTo();
+//	landingPage.goTo   ();
 	@AfterMethod(alwaysRun=true)
 	public void tearDown()
 	{
